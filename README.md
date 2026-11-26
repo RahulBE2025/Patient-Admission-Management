@@ -42,5 +42,6 @@ API base URL: `http://127.0.0.1:8000/api/`
 - Gender, ward, department and doctor: required and constrained to allowed choices.
 - Admission date: required and cannot be in the future.
 - Validation is enforced in React and Django REST Framework.
+  
 ## Important
-The doctor, ward and department dropdown choices are sample fixed lists for this task. Adjust them if your evaluator has supplied a required official list.
+The doctor, ward and department dropdown choices are sample fixed lists for this task.
