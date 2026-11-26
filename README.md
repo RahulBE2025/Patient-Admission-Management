@@ -1,6 +1,6 @@
 # CareDesk – Patient Admission Management
 
-A responsive patient admission management app built for the DScribe Software Engineer Intern Round 1 task.
+A responsive patient admission management app.
 
 ## Stack
 - Frontend: React 18, Vite, Axios, Lucide
@@ -42,12 +42,5 @@ API base URL: `http://127.0.0.1:8000/api/`
 - Gender, ward, department and doctor: required and constrained to allowed choices.
 - Admission date: required and cannot be in the future.
 - Validation is enforced in React and Django REST Framework.
-
-## Before publishing
-- Never commit `.env`, passwords or secret keys.
-- Set `DEBUG=False`, a strong `SECRET_KEY`, production `ALLOWED_HOSTS`, and production database credentials when deploying.
-- Configure the production frontend origin in `CORS_ALLOWED_ORIGINS`.
-- Add screenshots and the live frontend/backend links here before submission.
-
 ## Important
 The doctor, ward and department dropdown choices are sample fixed lists for this task. Adjust them if your evaluator has supplied a required official list.
